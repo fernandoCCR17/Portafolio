@@ -1,0 +1,246 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "titulo": "Administrador de Pacientes de Veterinaria",
+            "descripcion": "Se utilizo react-router-dom para el manejo del enrutamiento de la aplicación, se uso tailwindcss",
+            "repositorio": "https://github.com/fernandoCCR17/ProyectoMernFrontend",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                },
+                {
+                    "alt": "Logo Tailwindcss",
+                    "img": "LogoTailwind"
+                },
+                {
+                    "alt": "Logo Nodejs",
+                    "img": "LogoNodejs"
+                }
+            ],
+            "url-publica": "https://proyecto-mern-frontend.vercel.app",
+            "background": "apv"
+        },
+        {
+            "id": 2,
+            "titulo": "Quiosco de comida",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo Nextjs",
+                    "img": "LogoNextjs"
+                },
+                {
+                    "alt": "Logo Tailwindcss",
+                    "img": "LogoTailwind"
+                }
+            ],
+            "url-publica": "#",
+            "background": "quiosco-app"
+        },
+        {
+            "id": 3,
+            "titulo": "Calculadora",
+            "descripcion": "En este proyecto se practicaron los styled components, el cambio dinámico de los estilos al seleccionar un tema u otro",
+            "repositorio": "#",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "calculadora"
+        },
+        {
+            "id": 4,
+            "titulo": "Agencia de Viajes",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/agenciaViajesNode",
+            "tecnologias": [
+                {
+                    "alt": "Logo Nodejs",
+                    "img": "LogoNodejs"
+                },
+                {
+                    "alt": "Logo Tailwindcss",
+                    "img": "LogoTailwind"
+                }
+            ],
+            "url-publica": "#",
+            "background": "agencia-viajes"
+        },
+        {
+            "id": 5,
+            "titulo": "To Do List",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "todo-list"
+        },
+        {
+            "id": 6,
+            "titulo": "Planificador de Gastos",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "planificador-gastos"
+        },
+        {
+            "id": 7,
+            "titulo": "Cotizador de Criptomonedas",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "criptomonedas"
+        },
+        {
+            "id": 8,
+            "titulo": "Buscador de Clima",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "api-clima"
+        },
+        {
+            "id": 9,
+            "titulo": "Buscador de Bebidas",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "buscador-bebidas"
+        },
+        {
+            "id": 10,
+            "titulo": "Cotizador de Seguros de Auto",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "cotizador-seguros-auto"
+        },
+        {
+            "id": 11,
+            "titulo": "Cotizador de Creditos",
+            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
+            "tecnologias": [
+                {
+                    "alt": "Logo HTML",
+                    "img": "LogoHTML"
+                },
+                {
+                    "alt": "Logo CSS",
+                    "img": "LogoCSS"
+                },
+                {
+                    "alt": "Logo React",
+                    "img": "LogoReact"
+                }
+            ],
+            "url-publica": "#",
+            "background": "cotizador-creditos"
+        }
+    ]
+}

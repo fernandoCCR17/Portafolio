@@ -393,7 +393,7 @@ Error generating stack: `+o.message+`
             gap: 2rem;
         }
     }
-`;async function O0(){return await fetch("/src/proyectos.json")}function F0(){const e=Fg();return x.jsxs(z0,{className:"contenedor",children:[x.jsx("h2",{children:"Proyectos"}),x.jsxs("p",{className:"subTitle",children:['"',"Si puedes imaginarlo, puedes programarlo",'"']}),x.jsx("div",{className:"contenedorGrid",children:e.proyectos.map(t=>x.jsx(Vp,{datos:t},t.id))})]})}const I0=ne.section`
+`;async function O0(){return await fetch("../proyectos.json")}function F0(){const e=Fg();return x.jsxs(z0,{className:"contenedor",children:[x.jsx("h2",{children:"Proyectos"}),x.jsxs("p",{className:"subTitle",children:['"',"Si puedes imaginarlo, puedes programarlo",'"']}),x.jsx("div",{className:"contenedorGrid",children:e.proyectos.map(t=>x.jsx(Vp,{datos:t},t.id))})]})}const I0=ne.section`
     max-width: 80rem;
     margin: 1rem auto ;
     position: relative;

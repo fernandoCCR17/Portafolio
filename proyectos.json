@@ -3,7 +3,7 @@
         {
             "id": 1,
             "titulo": "Administrador de Pacientes de Veterinaria",
-            "descripcion": "Se utilizo react-router-dom para el manejo del enrutamiento de la aplicación, se uso tailwindcss",
+            "descripcion": "El proyecto del \"Administrador de Pacientes de Veterinaria\" se ha desarrollado como una aplicación web dividida en front-end y back-end. El back-end utiliza Node.js, Express y Mongoose para la conexión a la base de datos MongoDB. La arquitectura sigue el patrón Modelo-Vista-Controlador (MVC), garantizando una organización estructurada y modular del código.\nEn el área pública, los usuarios tienen acceso a funciones como iniciar sesión, registrarse y recuperar contraseña. Una vez autenticados, se genera un JSON Web Token (JWT) en el back-end para validar y autorizar las peticiones del usuario en las rutas privadas. Las variables de entorno se emplean para gestionar la conexión a la base de datos, asegurando la seguridad de la información.\nLa interfaz privada ofrece rutas dinámicas para administrar pacientes de la veterinaria, implementando operaciones CRUD protegidas por la validación del JWT. Además, se maneja el CORS para permitir solicitudes desde el front-end.\nEn el front-end, la aplicación está desarrollada en React, con estilos creados usando Tailwind CSS. Se utilizan librerías como React Router DOM para el enrutamiento, estados y hooks personalizados para gestionar el estado de manera eficiente, y el context de React para compartir información globalmente. El diseño es totalmente responsivo, adaptándose a diferentes dispositivos.\nEl front-end implementa la generación y gestión de tokens para la autenticación, con rutas dinámicas y protegidas. Se utiliza un diseño basado en layouts para mantener la coherencia visual en toda la aplicación.\nAdicionalmente, se incorpora lógica de envío de emails mediante Nodemailer para facilitar la comunicación con los usuarios, proporcionando una experiencia completa y segura tanto en la administración de pacientes como en la interfaz de usuario.",
             "repositorio": "https://github.com/fernandoCCR17/ProyectoMernFrontend",
             "tecnologias": [
                 {
@@ -33,7 +33,7 @@
         {
             "id": 2,
             "titulo": "Quiosco de comida",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto del \"Quiosco de Comida\" ha sido desarrollado utilizando Next.js en su versión 12. La capa de persistencia de datos se implementó con Prisma, ofreciendo una solución eficiente y segura para el almacenamiento de información.\nEn la aplicación, se utiliza getServerSideProps de Next.js para realizar consultas a la base de datos y obtener datos dinámicamente durante la ejecución del lado del servidor. Se ha creado un layout principal para mantener la consistencia del diseño en toda la aplicación, proporcionando una experiencia de usuario coherente.\nPara la interacción del usuario, se incorpora un modal para la selección de productos, facilitando la experiencia de compra. Se implementa Toastify para mostrar notificaciones visuales al agregar un pedido, actualizarlo o completarlo, mejorando la retroalimentación al usuario.\nEl sistema cuenta con todas las funcionalidades del CRUD, incluyendo rutas específicas para cada etapa del proceso de compra. Se ha creado una barra de progreso que muestra visualmente el avance del usuario a través de las distintas etapas de la compra.\nEn el área de administración, específicamente en las secciones de cocina y cajas, se hace uso de SWR (Stale-While-Revalidate) para obtener en tiempo real los pedidos. Esto permite una gestión eficiente y dinámica de la información, mejorando la eficacia en la cocina y en la caja al mantener la información actualizada en tiempo real.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {
@@ -51,7 +51,7 @@
         {
             "id": 3,
             "titulo": "Calculadora",
-            "descripcion": "En este proyecto se practicaron los styled components, el cambio dinámico de los estilos al seleccionar un tema u otro",
+            "descripcion": "El proyecto de la \"Calculadora\" está implementado utilizando React y un sistema de estado para mostrar los resultados de las operaciones. La interfaz de usuario permite la entrada de números y operadores, ya sea mediante botones dispuestos en el diseño o a través de un input de tipo texto. Se ha realizado una validación manual para garantizar la corrección en todos los posibles casos de operaciones.\nLa calculadora permite ingresar números y operadores de manera intuitiva, y cuando se presiona un botón de operador o se teclea un operador en el teclado, se realiza la operación correspondiente y se muestra el resultado actualizado en el estado de la calculadora.\nAdicionalmente, se ha implementado la posibilidad de cambiar el tema de la calculadora para brindar a los usuarios la opción de personalizar su experiencia visual. Esto se logra mediante la selección de diferentes temas que alteran la apariencia de la calculadora.",
             "repositorio": "#",
             "tecnologias": [
                 {
@@ -73,7 +73,7 @@
         {
             "id": 4,
             "titulo": "Agencia de Viajes",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto de la \"Agencia de Viajes\" ha sido desarrollado utilizando Node.js con enrutamiento y Pug como motor de plantillas para la generación de vistas. La aplicación incluye diversas secciones, con un énfasis especial en la sección de testimoniales que permite a los usuarios agregar más experiencias de viaje.\nEn la aplicación, se ha implementado un sistema de enrutamiento para dirigir a los usuarios a diferentes secciones de la agencia de viajes. El motor de plantillas Pug facilita la creación de vistas dinámicas y mantenibles, mejorando la eficiencia en la generación de contenido.\nLa sección de testimoniales permite a los usuarios agregar nuevas experiencias de viaje, contribuyendo a la diversidad y riqueza del contenido generado por los propios clientes. Esto fomenta la interacción y participación de la comunidad.\nAdemás, la aplicación destaca la importancia de las bases de Node.js al utilizarlo como entorno de ejecución. Esto incluye la gestión de dependencias, enrutamiento eficiente y manejo de peticiones HTTP.",
             "repositorio": "https://github.com/fernandoCCR17/agenciaViajesNode",
             "tecnologias": [
                 {
@@ -83,6 +83,10 @@
                 {
                     "alt": "Logo Tailwindcss",
                     "img": "LogoTailwind"
+                },
+                {
+                    "alt": "Logo Pug",
+                    "img": "LogoPug"
                 }
             ],
             "url-publica": "#",
@@ -91,7 +95,7 @@
         {
             "id": 5,
             "titulo": "To Do List",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto del \"To Do List\" está construido con React y React Router DOM para la gestión de rutas. Se utiliza el estado (states) para manejar las operaciones CRUD en una base de datos simulada que utiliza el local storage para almacenar las notas. Además, se implementa un buscador que filtra las notas y permite ordenarlas por fecha o en orden alfabético de manera ascendente o descendente.\nEn la aplicación, el enrutamiento se gestiona con React Router DOM, permitiendo una navegación fluida entre diferentes vistas y operaciones CRUD. El estado de React se utiliza para gestionar la información de las notas y su renderizado dinámico.\nLa base de datos simulada en local storage proporciona persistencia a las notas del \"To-Do List\", permitiendo que la información se mantenga incluso después de recargar la página. Las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) están implementadas para facilitar la gestión de las notas.\nEl buscador en la aplicación permite a los usuarios filtrar las notas según palabras clave, proporcionando una funcionalidad de búsqueda eficiente. Además, se ofrece la posibilidad de ordenar las notas por fecha o en orden alfabético, tanto de forma ascendente como descendente, brindando flexibilidad en la organización de la información.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {
@@ -113,7 +117,7 @@
         {
             "id": 6,
             "titulo": "Planificador de Gastos",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto del \"Planificador de Gastos\" ha sido desarrollado utilizando React y aprovechando el estado (state) para gestionar las operaciones relacionadas con el presupuesto y los gastos. Además, se utiliza local storage para persistir los datos y mantener la información incluso después de recargar la página. El proyecto incluye funcionalidades avanzadas como validaciones del presupuesto, formateo de cantidades, reseteo de la aplicación, cálculos dinámicos al añadir gastos y una sección que almacena todos los gastos generados.\nEn la aplicación, se han implementado validaciones del presupuesto para garantizar que los usuarios ingresen valores adecuados. El formateo de las cantidades se realiza para mejorar la presentación y comprensión de las cifras.\nLa persistencia de datos se logra mediante el uso de local storage, permitiendo que la información del presupuesto y los gastos se mantenga entre sesiones.\nAdemás, se incluye la posibilidad de resetear la aplicación, restableciendo los estados a sus valores iniciales. Esta función ofrece una forma rápida de reiniciar y comenzar de nuevo.\nLos cálculos se realizan dinámicamente al añadir gastos, actualizando automáticamente el estado del presupuesto y mostrando la información en tiempo real. Una sección especial almacena todos los gastos generados, proporcionando una visión completa del historial financiero.\nPara mejorar la experiencia del usuario, se ha incorporado una librería que permite la animación de arrastrar para editar o borrar gastos. Esto proporciona una interfaz más interactiva y fácil de usar.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {
@@ -135,7 +139,7 @@
         {
             "id": 7,
             "titulo": "Cotizador de Criptomonedas",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto del \"Cotizador de Criptomonedas\" está diseñado con React y hace uso de tecnologías modernas como styled-components para el estilo, custom hooks para la lógica compartida y el manejo del estado para proporcionar una experiencia dinámica al usuario. Además, se integra con la API de min-api.cryptocompare.com para obtener información actualizada de las criptomonedas.\nEn la aplicación, styled-components se utiliza para el estilo, permitiendo una gestión clara y modular de los estilos en línea con la filosofía de React. Se implementan custom hooks para manejar la lógica compartida y optimizar la reutilización de código, mejorando la estructura y mantenimiento del proyecto.\nEl estado de React se utiliza para gestionar la información dinámica de la aplicación, como la moneda seleccionada, el precio de las criptomonedas y otros detalles relevantes.\nLa aplicación se conecta a la API de min-api.cryptocompare.com para obtener la lista de las mejores criptomonedas y su información en tiempo real. Se permite al usuario seleccionar la moneda de referencia para la cotización.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {
@@ -157,7 +161,7 @@
         {
             "id": 8,
             "titulo": "Buscador de Clima",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto del \"Buscador de Clima\" está desarrollado en React y utiliza tecnologías como el estado (state) para gestionar la información dinámica y una API externa (Weather API) para obtener la temperatura según la ciudad y país proporcionados por el usuario. La consulta a la API se realiza mediante una clave de API (apikey) para asegurar la autenticación.\nEn la aplicación, el estado de React se utiliza para gestionar la información dinámica, como la ciudad, país y los resultados de la consulta del clima. Esto permite una actualización dinámica de la interfaz de usuario en respuesta a las interacciones del usuario.\nLa aplicación se conecta a la API de Weather API utilizando una clave de API para autenticación. Al ingresar la ciudad y el país en el buscador, la aplicación realiza una solicitud a la API para obtener información precisa sobre la temperatura y otros detalles climáticos.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {
@@ -179,7 +183,7 @@
         {
             "id": 9,
             "titulo": "Buscador de Bebidas",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto del \"Buscador de Clima\" está construido en React y hace uso de la gestión de estado (state), el contexto (context), y proveedores (provider). Utiliza la API de The CocktailDB para obtener recetas de bebidas según el tipo y categoría seleccionados por el usuario.\nEn la aplicación, el estado de React se utiliza para gestionar información dinámica, como la selección de tipo y categoría de bebida, así como los resultados de la consulta a la API. Además, se implementa el contexto y proveedores para compartir información de manera eficiente entre componentes.\nLa aplicación se conecta a la API de The CocktailDB para obtener recetas de bebidas en función del tipo (como alcohólicas o no alcohólicas) y la categoría específica seleccionada por el usuario.\nEl uso de contexto y proveedores permite una gestión centralizada del estado de la aplicación, facilitando la actualización y distribución de la información entre componentes sin la necesidad de pasar props manualmente.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {
@@ -201,7 +205,7 @@
         {
             "id": 10,
             "titulo": "Cotizador de Seguros de Auto",
-            "descripcion": "Se utilizo Next version 12.0.0 para la realización de esta aplicación, para la parte visual se utilizo Tailwindcss ",
+            "descripcion": "El proyecto consiste en un cotizador de seguros de automóviles desarrollado en React, utilizando la Context API y el patrón Provider para gestionar el estado global de la aplicación. La interfaz de usuario permite a los usuarios seleccionar la marca, el año y el plan de seguro (básico o completo) para su automóvil, con la capacidad de actualizar en tiempo real el precio del seguro a medida que se ajustan estos parámetros. La aplicación también emplea la función useCallback para optimizar el rendimiento, memoizando funciones y evitando re-renderizaciones innecesarias de componentes. Este cotizador proporciona una experiencia de usuario eficiente, permitiendo a los usuarios explorar diversas opciones y obtener cotizaciones precisas de manera instantánea.",
             "repositorio": "https://github.com/fernandoCCR17/quioscoapp",
             "tecnologias": [
                 {

@@ -326,6 +326,11 @@ Error generating stack: `+o.message+`
         margin: 0;
         font-size: 1.7rem;
         color: var(--ColorSecundario);
+        white-space: nowrap;         /* Evita el salto de línea */
+        overflow: hidden;            /* Oculta el contenido que sobresale */
+        text-overflow: ellipsis;     /* Agrega puntos suspensivos (...) al final del texto truncado */
+        width: 75%;                /* Ancho máximo permitido antes de la truncación */
+        display: inline-block;
     }
     
     p{
